@@ -38,7 +38,7 @@ let package = Package(
             targets: ["MyProject"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/Swift-SMTP", .upToNextMinor(from: "5.1.0")),    // add the dependency
+        .package(name: "SwiftSMTP", url: "https://github.com/IBM-Swift/Swift-SMTP", .upToNextMinor(from: "5.1.0")),    // add the dependency
     ],
     targets: [
         .target(
